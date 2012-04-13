@@ -13,7 +13,7 @@ The following pages are monitored for changes:
  - http://bitlotto.com/
  - http://bitlotto.com/addresses.html
  - http://bitlotto.com/details.html
- - http://bitlotto.com/details.html
+ - http://bitlotto.com/valid.html
 
 After being alerted, the administrator pulls the site (using wget -r )
 and commits the site to the repository.
