@@ -1,0 +1,23 @@
+This repository holds the static html pages from http://BitLotto.com.
+
+The purpose of this is to have an independant archive of the
+site since the information on the site is used to for financial
+transactions which need to be verified at a later time.
+
+An external service, ChangeDetection.com is used to monitor for changes
+to the pages which have this financial information.
+When a change is detected (checked once daily) an alert is sent to 
+the administrator of this archive via e-mail.
+
+The following pages are monitored for changes:
+ - http://bitlotto.com/
+ - http://bitlotto.com/addresses.html
+ - http://bitlotto.com/details.html
+ - http://bitlotto.com/details.html
+
+After being alerted, the administrator pulls the site (using wget -r )
+and commits the site to the repository.
+
+- Stephen Gornick
+  sgornick@digicoast.com
+  +1.310.356.9912

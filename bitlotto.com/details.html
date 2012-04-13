@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="Bluefish 2.0.1" />
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=us-ascii" />
+
+  <title>BitLotto - the Bitcoin lottery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <img src="logo.gif" width="200" height="51" alt="BitLotto" />
+
+      <h2>anonymous, transparent, and cheat-proof with a 99% payout!</h2><br>
+      <hr>
+  <p><b>Operation Fabulous Advertiser:</b><br>
+<!-- Beginning of Operation Fabulous ad code: -->
+<!-- Ad box ID: 184 -->
+<script type="text/javascript">
+<!--
+var pw_d=document;
+pw_d.bch_wid="184";
+//-->
+</script>
+<div class="adbox">
+<script type="text/javascript" src="http://www.operationfabulous.com/ads/ad_display.js"></script>
+<noscript>
+<map name="admap184"><area href="http://www.operationfabulous.com/ads/link_nojs.php?wid=184" shape="default" alt="Operation Fabulous Ads" /></map>
+<img src="http://www.operationfabulous.com/ads/nojs.php?wid=184" usemap="#admap184" border="0" alt="Operation Fabulous Ads" />
+</noscript><!-- End of Operation Fabulous ad code. -->
+</div>
+</p>
+
+<hr> 
+   <h3>Complete Details:</h3>
+<p>To play BitLotto you must be using a Bitcoin address where you are the person owning the entire wallet 
+      of Bitcoin accounts. Wallets are where Bitcoin accounts are kept track of. When you use Bitcoin on your 
+      own computer/device you are the sole owner of the wallet but when using services where you log into an account 
+      over the internet such as MtGox you are sharing a wallet with many other people. The way 
+      BitLotto works is that it sends the winnings to someone who owns the wallet. If multiple people are 
+      using the wallet then the winnings will go to the wrong person. <strong>BitLotto has decided
+      to run the lottery in this fashion because it allows for more transparency of the lottery as
+      all plays are known by everyone and can't be manipulated by BitLotto.</strong> 
+      If you enjoy using shared wallets it doesn't take long to run Bitcoin 
+      yourself and send a couple coins from the online service to the Bitcoin running on your computer. 
+      Then, if you win, the winnings will go to the Bitcoin wallet you are running yourself. It's recommended 
+      you use an account where you control the wallet anyway because if one day, when someone wins a lot of money, 
+      it's within possibility for the owner of the wallet to keep the winnings if they decided to steal it. 
+      If you are the owner of the wallet then no one can take the money from you.
+ <br><br>To play send the BTC to the account used for the desired draw.
+ Each months draw will have a different Bitcoin address. Price per 
+play could change as the value of Bitcoins change. 
+<br><br>Each entry will then 
+have a corresponding transaction hash that is available everywhere in 
+the Bitcoin network as proof of purchase. This hash is your ticket. Every one is unique and can't be changed because
+it's contained in the Bitcoin blockchain and permanently set. 
+The first ticket will be the transaction hash of the initial payment to the draw address. 
+Each multiple over the ticket price will use the original transaction hash with an added a number (starting at 1) at the 
+end of the transaction hash and re-hashed to create the other tickets. 
+Eg. The second ticket would be SHA256(originalhash1) and the third ticket would be SHA256(originalhash2).
+ Entries have to be received in a Bitcoin block the day before the draw. (Draw starts with the first block after 00:00:00 UTC Date of Draw) Waiting
+ till just before the time limit increases your chance the entry won't get received on time. 
+ Better to be safe than sorry and send it days before the draw. If you have waited till the last minute and still want to enter the draw, just
+ configure your Bitcoin client to pay a small transaction fee. 
+ That should make sure it gets in the Bitcoin network as soon as possible. Entries received after 
+Tuesday will be returned minus 0.01 for services and to cover transaction fees. 
+<br><br>The winner will be determined by using SHA256 hashes. This will ensure
+that no one, not even BitLotto, can manipulate who wins. 
+The mixer hash is a SHA256 hash of: luckyblockhash+lotterynumbers (no spaces or + sign)
+Lucky Block hash is the hash of the first Bitcoin block in the Bitcoin network with a 
+timestamp after 00:00:00 UTC (On date of the draw). The lottery numbers come from the Mega Millions drawn a few hours later. 
+A draw of: 07,19,39,41,55 (low to high) Mega Ball 21 would be entered as: 071939415521 in the formula.
+In the extremely rare event
+that no block dated after 00:00 UTC is announced on the Bitcoin network and received by BitLotto by 02:30 UTC the lottery numbers will come from the Mega Millions
+draw on Friday night rather than Tuesday night. 
+This method makes it impossible for anyone, even BitLotto, to manipulate who wins. And since the ticket hashes are publicly
+known, along with who sent it, it's impossible for BitLotto to fake a payment to a wrong person.  
+<br><br>
+To determine the winner each transaction hash will have the mixer hash added to the end. This
+string is now hashed again using SHA256. The resulting hashes are sorted 0-9,a-f and what ever
+hash is sorted to the beginning wins. (Will likely start with multiple 0's)
+
+
+<br><br>After
+ the draw is done the winner's account along with the transaction hash 
+will be announced and posted online. This will allow 
+others to compare their hash with the winner to verify that the person 
+is indeed the winner. After a few days, if no alternate winner is received, 99% of the
+ funds will go to whatever account sent the winning Bitcoin transaction hash.
+ <br><br>The winner is not required to 
+ contact BitLotto. The money will just show up in their account!
+ <br><br><strong>Why keep 1%?</strong><br><br>One
+ percent is <strong>extremely low for lotteries</strong>! With many lotteries up to half 
+of the money is put into other projects or donated. BitLotto encourages 
+winners to donate some of the winnings but it is up to the winner to 
+choose what to do with their winnings. The <strong>1% margin helps keep BitLotto
+ honest</strong>. If someone were to create an alternate lottery with no profit 
+kept it could be conceived that such individual could create the lottery
+ for the sole purpose of becoming popular only to never pay the winnings
+ out one day when the funds get really big and just disappear with the 
+money. Even though 1% is low <strong>it's in BitLotto's long term interest to 
+develop trust with time and always pay the winner</strong>. It would only take 
+one time of not paying before all trust is lost. By building trust and 
+doing as specified it is hoped that BitLotto becomes very popular and by
+ doing that, helps generate some profit from the 1% stake. Long term, 
+it's better to follow the rules than one month decide to keep the money.
+ BitLotto will make more money by giving out the winnings consistently 
+every month so the service becomes bigger and bigger. With no 1% stake 
+there would be the temptation for someone to keep the funds. With the 1%
+ stake it's better to keep awarding the prize to the proper person each 
+month as promised as in the long term BitLotto will be more successful!<br><br>Because
+ the BitLotto account is known all money involved can be verified and 
+monitored by anyone. All hashes are known before the draw and the 
+numbers come from a source beyond BitLotto's control. Because of the way it's set up 
+it's very hard to scam or rip people off. Anyone can verify everything, 
+even if the winnings were sent to the right person!
+<br><br>
+In the event of a discrepancy between the details in another language and English, the English rules will be followed.  
+
+<br><br>
+<span style="font-size: smaller;">Copyright 2011 BitLotto<br>
+BitLotto is for entertainment purposes only. You must be 18 or older (or of legal majority in your country of citizenship) to play BitLotto. 
+By playing BitLotto, you agree to these terms.
+This website is for informational purposes only. All financial transactions are to occur globally on the Bitcoin P2P network, not on
+this website. Know your limits. Play within them. </span>
+
+    </div><!-- end header -->
+
+    
+    
+
+    <div id="footer">
+      <hr />
+
+      <p class="left">| <a href=
+      "http://www.bitcoin.org">About Bitcoins</a>
+      | Follow on <a href="https://www.twitter.com/bitlotto">Twitter</a> | <a href="bitlotto-public.key">BitLotto Public Key</a></p>
+
+      <p class="right">Contact <a href=
+      "mailto:bitcoinlotto@yahoo.com">BitLotto</a></p>
+
+      <p>&nbsp;</p>
+    </div><!-- end footer -->
+  </div><!-- end container -->
+</body>
+</html>
